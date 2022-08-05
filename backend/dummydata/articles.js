@@ -35,6 +35,15 @@ const articles = [
       doi: "https://doi.org/10.1109/esem.2007.35",
       claim_evidence: [["code improvement", "weak support"], ["product improvement", "weak support"], ["team improvement", "none"]],
     },
+    {
+      _id: "5",
+      title: "Does Test-Driven Development Really Improve Software Design Quality?",
+      authors: "Janzen, D. S.",
+      source: "Software, IEEE, 25(2) 77-84",
+      pubyear: "2008",
+      doi: "",
+      claim_evidence: [["code improvement", "strong support"], ["product improvement", "weak support"], ["team improvement", "none"]],
+    }
   ];
   
   module.exports = articles;
